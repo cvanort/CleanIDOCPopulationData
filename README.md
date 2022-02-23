@@ -5,10 +5,10 @@ IDOC publishes population data sets which consist of each person housed in a sta
 The population data sets can be found here: https://www2.illinois.gov/idoc/reportsandstatistics/Pages/Prison-Population-Data-Sets.aspx
 
 Specifically, the script does the following:
-* Read in the data sets
-* Combine the data sets, labeling each with the last date of the month on which it was published
-* Combine data columns with same information but different names
-* Transform the dates into dates, where possible
+* Reads in the data sets
+* Combines the data sets, labeling each with the last date of the month on which it was published
+* Combines data columns with same information but different names
+* Transforms the dates into dates, where possible
 * Calculates recidivism: the sentence number for each individual
 * Cleans and categorizes the sentencing counties
 * Splits the truth-in-sentencing values into percents and descriptions
